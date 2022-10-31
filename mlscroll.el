@@ -52,9 +52,9 @@ if `mlscroll-right-align' is `nil'). Only effective if
 `mode-line-position'."
   :group 'mlscroll
   :type '(choice
-	  (const :tag "do nothing" nil)
-	  (const :tag "remove" t)
-	  (const :tag "replace" 'replace)))
+	        (const :tag "do nothing" nil)
+	        (const :tag "remove" t)
+	        (const :tag "replace" replace)))
 
 (defcustom mlscroll-right-align t
   "Whether to right-align the scrollbar within the mode line.
